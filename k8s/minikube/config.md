@@ -5,7 +5,7 @@ Configuration and Management Commands:
   profile          Get or list the current profiles (clusters)
   update-context   Update kubeconfig in case of an IP or port change
 
-minikube addons lis
+minikube addons list
 
 
 ```
