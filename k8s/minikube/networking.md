@@ -5,6 +5,11 @@ minikube ip
 
 minikube ssh
 
+minikube ssh docker@$(minikube ip)
+
+user: docker
+pass: tcuser
+
 
 minikube service  <service-name>
 
