@@ -1,6 +1,6 @@
 ```bash
-#spring init --build=gradle --java-version=1.8 --dependencies=websocket --packaging=war sample-app.zip
-spring init --dependencies=web springboot-dockerfile
+
+spring init --dependencies=web springboot-dockerfile 
 
 spring run 
 
@@ -10,9 +10,9 @@ mvn package
 
 open -a docker
 
-docker build -t springboot-dockerfile:latest .
+docker build -t jaisoft/springboot:latest .
 
-docker run -p8080:8080 springboot-dockerfile:latest
+docker run -p8080:8080 jaisoft/springboot:latest
 
 http:localhost:8080
 
